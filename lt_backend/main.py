@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
-from .routes import topics, plans, resources, analytics, quizzes
-from .db import connect_to_mongo, close_mongo_connection
+from routes import topics, plans, resources, analytics, quizzes
+from db import connect_to_mongo, close_mongo_connection
 
 app = FastAPI(
     title="Learning Tracker API",

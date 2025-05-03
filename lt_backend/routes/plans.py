@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, Body, Query, Path, status
 from fastapi.encoders import jsonable_encoder
-from lt_backend.db import study_plans_collection, topics_collection
-from lt_backend.models.models import (
+from db import study_plans_collection, topics_collection
+from models.models import (
     StudyPlan,
     StudyPlanCreate,
     StudySession,

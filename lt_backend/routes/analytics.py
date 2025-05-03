@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Query
-from lt_backend.db import topics_collection, study_plans_collection
-from lt_backend.models.models import ResponseModel, ProgressSummary, StudyStreak
+from db import topics_collection, study_plans_collection
+from models.models import ResponseModel, ProgressSummary, StudyStreak
 from typing import List, Optional, Dict
 from datetime import datetime, timedelta
 from bson import ObjectId

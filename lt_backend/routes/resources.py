@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, Body, Path, status
 from fastapi.encoders import jsonable_encoder
-from lt_backend.db import topics_collection
-from lt_backend.models.models import Resource, ResponseModel
+from db import topics_collection
+from models.models import Resource, ResponseModel
 from typing import List
 from bson import ObjectId
 from datetime import datetime

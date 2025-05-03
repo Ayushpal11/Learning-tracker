@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, Body, Query, Path
 from fastapi.encoders import jsonable_encoder
-from lt_backend.db import topics_collection, quiz_collection, study_plans_collection
-from lt_backend.models.models import (
+from db import topics_collection, quiz_collection, study_plans_collection
+from models.models import (
     QuizCreate,
     Quiz,
     QuizQuestion,
