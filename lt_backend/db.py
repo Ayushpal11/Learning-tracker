@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # MongoDB connection details
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://GG:<db_password>@learning.zieolhs.mongodb.net/?retryWrites=true&w=majority&appName=Learning")
 DB_NAME = os.getenv("DB_NAME", "learning_tracker")
 
 # Global database client and database instances
