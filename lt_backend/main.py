@@ -12,7 +12,7 @@ app = FastAPI(
 # Add CORS middleware with explicit configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],  # Frontend URLs
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "https://learning-tracker-eight.vercel.app/"],  # Frontend URLs
     allow_credentials=True,
     allow_methods=["*"],  # Allow all methods
     allow_headers=["*"],  # Allow all headers
