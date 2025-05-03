@@ -12,7 +12,7 @@ app = FastAPI(
 # Add CORS middleware with explicit configuration
 app.add_middleware(
     CORSMiddleware, 
-    allow_origins=["https://learning-tracker-eight.vercel.app"]  # Frontend URL
+    allow_origins=["https://learning-tracker-eight.vercel.app"],  # Frontend URL
     allow_credentials=True,
     allow_methods=["*"],  # Allow all methods
     allow_headers=["*"],  # Allow all headers
