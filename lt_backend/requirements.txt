@@ -1,0 +1,25 @@
+# Core web framework
+fastapi>=0.110.0  # Latest FastAPI for Pydantic v2 support
+starlette>=0.36.3  # Latest Starlette for FastAPI compatibility
+uvicorn>=0.23.2
+
+# Database
+motor>=3.3.1
+pymongo>=4.6.0
+
+# Environment and validation
+python-dotenv>=1.0.0
+pydantic>=2.5.2  # Required by mistralai 0.0.7
+
+# Other dependencies
+requests
+python-multipart
+email-validator
+bcrypt
+python-jose[cryptography]
+passlib
+mistralai==0.0.7
+
+google-auth-oauthlib==1.0.0
+google-auth-httplib2==0.1.0
+google-api-python-client==2.86.0
